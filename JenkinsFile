@@ -24,7 +24,7 @@ pipeline {
     bat 'dotnet pack '
    }
   }
-stageTest('Test'){
+stage('Test'){
    steps {
     bat "dotnet test"
    }
