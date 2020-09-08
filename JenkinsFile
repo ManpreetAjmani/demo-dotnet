@@ -24,9 +24,9 @@ pipeline {
     bat 'dotnet pack '
    }
   }
-stageTest{
+stage('Test'){
    steps {
-    bat "dotnet test
+    bat "dotnet test"
    }
   }
   stage('Publish') {
@@ -34,4 +34,5 @@ stageTest{
     bat "dotnet publish"
    }
  }
+}
 }
