@@ -26,7 +26,7 @@ pipeline {
   }
 stageTest{
    steps {
-    bat "dotnet test
+    bat "dotnet test"
    }
   }
   stage('Publish') {
