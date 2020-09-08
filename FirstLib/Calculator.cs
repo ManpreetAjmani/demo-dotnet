@@ -24,6 +24,7 @@ namespace FirstLib
 
         public int mul(){
             System.Console.WriteLine("build after every push");
+            
             return a*b;
         }
     }
