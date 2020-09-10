@@ -17,17 +17,7 @@ namespace NewCoreProject
             //Then
         }
 
-        [Fact]
-        public void testsub()
-        {
-        //Given
-        var obj=new Calculator(2,1);
-        Assert.Equal(1,obj.sub());
-            //When
-
-            //Then
-        }
-
+        
         [Fact]
         public void testmul()
         {
